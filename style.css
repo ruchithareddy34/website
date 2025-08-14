@@ -6,381 +6,540 @@ body {
     line-height: 1.6;
     box-sizing: border-box;
 }
-.my-web{
+
+.my-web {
     background-image: url(images/firstbackground.png);
     background-size: cover;
-     background-color: rgba(0, 0, 0, 0.4);
-     background-blend-mode:darken;
-     height:140vh;
- 
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: darken;
+    height: 140vh;
+
 }
- /* background image */
-.sec1{
+
+/* background image */
+.sec1 {
     display: flex;
- justify-content: space-between;
- align-items: center;
-padding-left: 270px;
-padding-right:370px ;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 270px;
+    padding-right: 370px;
 }
- 
- 
-.contact-info a{
-padding-left: 13px;
-   align-items: center;
-color:white;
-text-decoration: none;
- 
- 
+
+
+.contact-info a {
+    padding-left: 13px;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+
+
 }
-.contact-info i{
+
+.contact-info i {
     padding-top: 18px;
     margin-right: 5px;
 }
- .social-icons  {
-  color: #fff;
-  padding-top: 8px;
- 
-  text-decoration: none;
+
+.social-icons {
+    color: #fff;
+    padding-top: 8px;
+
+    text-decoration: none;
 }
+
 .social-icons a {
-    color:white;
+    color: white;
     padding: 10px;
 }
- 
+
 .mysearch {
-    padding:15px;
+    padding: 15px;
     border-left: 1px solid white;
     border-right: 1px solid white;
 }
- 
- 
+
+
 /* belowtop */
- 
+
 /* navbar */
 .my-logo {
-    display:flex;
+    display: flex;
     flex-direction: row;
 }
+
 .my-content {
     padding-left: 220px;
     padding-top: 10px;
 }
+
 .nav-content ul li {
-    position:relative;
+    position: relative;
     list-style-type: none;
     padding-top: 10px;
 }
+
 .nav-content ul li a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 2px;
-  display: inline-block;
-  transition: color 0.3s;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 2px;
+    display: inline-block;
+    transition: color 0.3s;
 }
+
 /* Active Item */
- 
+
 .list-content {
     position: relative;
- 
+
 }
+
 .list-content1 {
     position: relative;
     padding-left: 80px;
- 
+
 }
+
 .dropdown {
     display: none;
     position: absolute;
-   width: 180px;
-    border:2px solid white;
+    width: 180px;
+    border: 2px solid white;
     top: 40px;
     background: rgb(194, 192, 192);
     padding-left: 0;
 }
+
 .list-content:hover .dropdown {
- 
+
     display: block;
-     border-top:4px solid red;
+    border-top: 4px solid red;
 }
-.list-content:hover  i {
-  transform: rotate(180deg);
+
+.list-content:hover i {
+    transform: rotate(180deg);
 }
-.dropdown:hover  li a {
+
+.dropdown:hover li a {
     height: 3vh;
     background-color: rgb(107, 208, 233);
     transition: 1s ease-out;
 }
-.dropdown li{
-    height:3vh;
-   width:8vw;
-   bottom: 0;
-   
+
+.dropdown li {
+    height: 3vh;
+    width: 8vw;
+    bottom: 0;
+
 }
+
 .my-button {
     display: flex;
-    border:2px solid rgb(243, 87, 87);
-    height:4vh;
-    width:7vw;
+    border: 2px solid rgb(243, 87, 87);
+    height: 4vh;
+    width: 7vw;
     margin-top: 18px;
     margin-left: 150px;
     padding-left: 27px;
     padding-top: 10px;
     background: rgb(248, 85, 64);
-    color:white;
+    color: white;
 }
+
 /* textcontent-design */
- 
- 
+
+
 .row {
     display: flex;
-    margin-top:80px;
+    margin-top: 80px;
 }
-.big-text{
+
+.big-text {
     font-size: 60px;
     color: white;
     font-weight: 900;
 }
+
 .left-column {
-   
-    float:left;
-   margin-left: 300px;
+
+    float: left;
+    margin-left: 300px;
 }
-.card h6{
-    color:rgb(245, 94, 94);
+
+.card h6 {
+    color: rgb(245, 94, 94);
     font-weight: 800;
-    font-size:15px;
+    font-size: 15px;
 }
+
 .card p {
-    color:white;
+    color: white;
 }
- 
+
 .right-column {
-    width:50%;
+    width: 50%;
     margin-right: 350px;
-   
-   
-   
- 
+
+
+
+
 }
+
 .new-btn {
-   margin-top:70px;
+    margin-top: 70px;
 }
-.btn1{
-    border:1px solid rgb(223, 89, 89);
+
+.btn1 {
+    border: 1px solid rgb(223, 89, 89);
     background: rgb(247, 59, 59);
     color: white;
     padding: 15px;
-    height:5vh;
-    width:7vw;
+    height: 5vh;
+    width: 7vw;
     margin-right: 30px;
 }
-.btn2{
-    border:1px solid #0791be;
+
+.btn2 {
+    border: 1px solid #0791be;
     background: #0791be;
     color: white;
     padding: 15px;
-    height:5vh;
-    width:9vw;
+    height: 5vh;
+    width: 9vw;
 }
-.my-form{
-    display:flex;
-    justify-content:center;
-    align-items:center;
- 
+
+.my-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
-.booking{
-background-color:#0791be;
-padding:20px;
-color:white;
-height:500px;
-width:300px;
-justify-content: center;
- 
+
+.booking {
+    background-color: #0791be;
+    padding: 20px;
+    color: white;
+    height: 500px;
+    width: 300px;
+    justify-content: center;
+
 }
-.booking label{
-    font-size:18px;
-    display:block;
-    margin-bottom:5px;
-    margin-left:15px;
- 
+
+.booking label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 15px;
+
 }
+
 .booking .first-label {
-    width:250px;
-    height:4vh;
-    margin-left:15px;
+    width: 250px;
+    height: 4vh;
+    margin-left: 15px;
 }
+
 .booking .second-label {
-    width:250px;
-    height:4vh;
-    margin-left:15px;
+    width: 250px;
+    height: 4vh;
+    margin-left: 15px;
 }
-.booking input{
-    padding:8px;
-    margin-bottom:15px;
-    border:none;
-    font-size:14px;
+
+.booking input {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: none;
+    font-size: 14px;
 }
-.my-date{
-    width:250px;
-    height:4vh;
-    margin-left:15px;
+
+.my-date {
+    width: 250px;
+    height: 4vh;
+    margin-left: 15px;
 }
-.my-date1{
-    width:250px;
-    height:4vh;
-    margin-left:15px;
+
+.my-date1 {
+    width: 250px;
+    height: 4vh;
+    margin-left: 15px;
 }
-.booking .btn{
-    background-color:orangered;
-    color:white;
-    border:none;
-    font-size:14px;
-    width:270px;
-   height:5vh;
-   margin-top: 10px;
-   margin-left: 10px;
- 
+
+.booking .btn {
+    background-color: orangered;
+    color: white;
+    border: none;
+    font-size: 14px;
+    width: 270px;
+    height: 5vh;
+    margin-top: 10px;
+    margin-left: 10px;
+
 }
-.btn:hover{
+
+.btn:hover {
     background-color: rgb(81, 81, 185);
 }
-.second-bar p{
-   text-align: center;
-   margin-top: 90px;
-   color:rgb(236, 111, 111);
-   font-weight: 700;
-   
+
+.second-bar p {
+    text-align: center;
+    margin-top: 90px;
+    color: rgb(236, 111, 111);
+    font-weight: 700;
+
 }
- .second-head {
+
+.second-head {
     text-align: center;
     font-size: 40px;
-    color:rgb(2, 2, 77);
+    color: rgb(2, 2, 77);
     font-weight: 900;
     margin-top: 8px;
- }
- .lug-icon p{
-    color:#0791be;
+}
+
+.lug-icon p {
+    color: #0791be;
     margin-top: 0px;
     justify-content: center;
- 
- }
- /* imagegallery */
- .image-gallery{
-    display:flex;
-    gap:10px;
+
+}
+
+/* imagegallery */
+.image-gallery {
+    display: flex;
+    gap: 10px;
     justify-content: center;
-   
- }
+
+}
+
 .my-gallery {
-    position:relative;
+    position: relative;
     background-color: white;
-   box-shadow: 10px 10px 10px rgb(209, 208, 208);
-   width: 300px;
-   text-align: center;
+    box-shadow: 10px 10px 10px rgb(209, 208, 208);
+    width: 300px;
+    text-align: center;
     padding: 10px;
 }
+
 .my-gallery a {
     font-size: 25px;
     font-weight: 700;
-  text-decoration: none;
-        margin: 10px;
-         transition:color 0.4s;
+    text-decoration: none;
+    margin: 10px;
+    transition: color 0.4s;
 }
-.my-gallery a:hover{
-    color:rgb(243, 87, 87)
+
+.my-gallery a:hover {
+    color: rgb(243, 87, 87)
 }
+
 .my-gallery img {
-    height:38vh;
-    width:15vw;
-    filter:brightness(50%);
+    height: 38vh;
+    width: 15vw;
+    filter: brightness(50%);
 }
+
 .my-gallery .country-name {
     margin-top: 1px;
     display: block;
-      font-size: 15px;
+    font-size: 15px;
 }
+
 .customise-icon {
-position: absolute;
-padding-left: 280px;
-top:15px;
-right:29px;
-color: white;
+    position: absolute;
+    padding-left: 280px;
+    top: 15px;
+    right: 29px;
+    color: white;
 }
+
 .btn-again {
-      background-color:orangered;
-    color:white;
-    border:none;
-    font-size:14px;
-    width:270px;
-   height:5vh;
-   margin-top: 55px;
-   margin-left: 680px;
- 
+    background-color: orangered;
+    color: white;
+    border: none;
+    font-size: 14px;
+    width: 270px;
+    height: 5vh;
+    margin-top: 55px;
+    margin-left: 680px;
+
 }
+
 .btn-again:hover {
     background-color: #0791be;
 }
+
 /* gridsection */
-.image-gridtype {
-    display: inline-grid;
-    grid-template-columns: auto auto;
- grid-column: 1 / 3;
-  grid-row: 1 / 2;
-  color: white;
-  padding: 30px;
- 
-  z-index: 2;
-  align-self: center;
+.my-grid {
+margin-top:90px;
+ margin-left: 220px;
+ display: grid;
+ grid-template-columns: auto  auto;
 }
- 
-.image-gridtype .my-box {
-    position: relative;
-    height:270px;
-    width: 190px;
-    border:2px solid #0791be;
-    color: white;
-    background-color:  #0791be;
-    text-align: center;
-    padding-top: 20px;
-    font-size: 20px;
-    font-weight: 700;
-    border: 10px solid white;
-   box-shadow: 10px 10px 10px rgb(209, 208, 208);
-}
-.third-button{
-       background-color:rgb(245, 86, 29);
+
+
+.image-grid p {
     color:white;
-    border:none;
-    font-size:14px;
-    width:130px;
-   height:4vh;
-   margin-top: 20px;
- 
+    background-color: #0791be;
+    height:36vh;
+    width:13vw;
+    font-size: 20px;
+    font-weight: 900;
+    text-wrap: wrap;
+    padding-top: 30px;
+    box-shadow: 10px 10px 10px rgb(209, 208, 208);
+     border: 10px solid white;
+     text-align: center;
 }
-.main-grid {
- margin-top: 90px;
-  gap: 20px;
-  position: relative;
-  padding: 40px;
-  margin-left: 220px;
- 
- 
- 
+.image-grid .para-btn{
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    border: none;
+    font-size: 14px;
+    width: 120px;
+    height: 5vh;
+    margin-top: 25px;
+    margin-left: 10px;
+
 }
- 
-.first-image img{
+
+.first-image img {
     position: absolute;
-    right:20px;
-    width:350px;
-    height:28vh;
-    margin-left:2px;
+    width:320px;
+    right:730px;   
 }
-.second-image img{
+.second-image img {
+    position: absolute;
+    width:250px;
+    height:45vh;
+    top:2210px;
+}
+.third-image img{
+    position: absolute;
+    right:700px;
+    height:42vh;
+    width:320px;
+    top: 2120px;
+   
+}
+
+.my-sec {
+    display: flex;
+}
+.my-text{
+    margin-left:420px;
+    margin-top: 60px;
+}
+.my-text h6{
+    color: rgb(236, 111, 111);
+    font-weight: 700;
+    font-size: 15px;
+
+    
+}
+.my-text h3{
+   color: rgb(8, 8, 36);
+   font-size: 40px;
+   font-weight: 900;
+   line-height: 48px;
+}
+.logo-text{
+    display: flex;
+    margin-left:1px;
+    gap:10px;
+}
+.logo-text img{
+    background-color: #f56960;
+    width:80px;
+    height: 80px;
+}
+.logo-text h1{
+    color:#0b2348;
+    font-weight: 900;
+    font-size:15px;
+    margin-left: 20px;
+    margin-top:-2px;
+}
+.logo-text p{
+    margin-left:20px;
+    margin-top:-2px;
+}
+.brands {
+    display: inline-block;
+     margin-top: 80px;
+     margin-left: 120px;
+     margin-bottom: 80px;
+  
+}
+.brands img {
+    padding-left: 80px;
+}
+/* package section */
+.my-package {
+    text-align: center;
+    background-color: rgb(224, 223, 223);
+}
+.my-package p{
+      padding-top: 80px;
+}
+.my-package h4{
+    font-size: 40px;
+    margin-top: 0;
+    font-weight: 900;
+    line-height: 1;
+}
+.pack-images {
+    margin-top: 20px;
+    display: flex;
+padding-left: 180px;
+   
+    
+ 
+}
+.pack-images img {
     width:300px;
-    height: 38vh;
-    margin-right: 10px;
+    position: relative;
+    
+    
 }
-.third-image img {
-    margin-top:2px;
+
+.price-badge {
+  position: absolute;
+   
+  top: 3115px;
+   left:188px;   
+  background-color: #f25c5c; /* red shade */
+  color: white;
+  padding: 6px 12px;
+  border-radius: 1px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: sans-serif;
+  display: inline-block;
+}
+
+.price-badge strong {
+  font-weight: 700;
+}
+.my-icons{
+    position: absolute;
+    background: rgb(59, 149, 219);
+    width:298px;
+
+    color: white;
+top:3440px;
+padding-top: 20px;
+justify-content: space-between;
+margin-left:3pxx;
+font-size: 12px;
+text-align: center;
+
+  
+    border:2px solid rgb(85, 158, 226)
+}
+.card-content {
+    border:2px solid white;
+    width:250px;
+    background: white;
+  
 }
